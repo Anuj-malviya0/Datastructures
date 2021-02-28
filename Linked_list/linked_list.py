@@ -4,9 +4,6 @@ class Node:
     def __init__(self,value,ref = None):
         self.value = value
         self.ref = ref
-    #This method will link two nodes 
-    def link(self,Node):
-        self.ref = Node
     #This traverrs the whole list with while loop
     def traverse(self):
         while True:
@@ -15,6 +12,9 @@ class Node:
                 print('Null')
                 break
             self = self.ref
+#This function will link two nodes 
+    def link(Node1,Node2):
+        self.ref = Node
 node1 = Node(10)
 node2 = Node(20)
 node1.link(node2)
