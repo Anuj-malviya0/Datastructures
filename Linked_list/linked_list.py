@@ -13,8 +13,8 @@ class Node:
                 break
             self = self.ref
 #This function will link two nodes 
-    def link(Node1,Node2):
-        self.ref = Node
+def link(Node1,Node2):
+    Node1.ref=Node2
 node1 = Node(10)
 node2 = Node(20)
 node1.link(node2)
