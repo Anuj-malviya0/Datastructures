@@ -26,3 +26,8 @@ LinkedList − A Linked List contains the connection link to the first link call
 
 Linked_list looks some thing likes this
 <img src='https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png'>
+
+##Queue
+A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first. The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+
+<img src=''https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/450px-Data_Queue.svg.png
