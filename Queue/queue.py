@@ -1,4 +1,5 @@
 class Queue():
+    '''Queue is linear data structure,in which insertion is done by enqueue and deletion is done by dequeue'''
     #creating constructor
     def __init__(self,*args):
         self.items = [*args]
@@ -11,12 +12,14 @@ class Queue():
             self.rear = None
     #enque method will add an element to the queue
     def enque(self,value):
+        '''(insertion)'''
         self.items.insert(0,value)
     #here we are setting rear and front of queue
         self.front = self.items[0]
         self.rear = self.items[-1]
     #dequeue mthod which will delete items from the rear of the queue 
     def dequeue(self):
+        '''(deletion)'''
         self.items.pop()
         #here we are adjusting the rear 
         if self.items:
